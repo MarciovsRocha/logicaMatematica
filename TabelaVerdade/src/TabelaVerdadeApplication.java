@@ -1,6 +1,14 @@
+import java.util.Scanner;
+
 public class TabelaVerdadeApplication {
     public static void main(String[] args) {
-        TabelaVerdade t1_0 = new TabelaVerdade("p");
+
+        Scanner myObj = new Scanner((System.in));
+        System.out.println("Digite a Equacao: ");
+        String equacao = myObj.nextLine();
+        TabelaVerdade t = new TabelaVerdade(equacao);
+
+        /*        TabelaVerdade t1_0 = new TabelaVerdade("p");
 
         TabelaVerdade t2_0 = new TabelaVerdade("~p");
 
@@ -52,6 +60,6 @@ public class TabelaVerdadeApplication {
         TabelaVerdade t8_1 = new TabelaVerdade("~p^~qv~r");
         TabelaVerdade t8_2 = new TabelaVerdade("~pv~q^~r");
         TabelaVerdade t8_3 = new TabelaVerdade("~pv~qv~r");
-
+*/
     } // public static void main(String[] args)
 } // public class TabelaVerdadeApplication

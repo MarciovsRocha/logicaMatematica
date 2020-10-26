@@ -1,5 +1,4 @@
 import static java.lang.Math.pow;
-import static java.lang.Math.scalb;
 
 public class TabelaVerdade {
     private int tamanhoString;
@@ -340,7 +339,7 @@ public class TabelaVerdade {
                         if (1 == (x%2)){
                             r = true;
                         }
-                        if ( (1 == ((x - 1) % 2)) && (1 == ((x - 2) % 2)) ){
+                        if ( (1 == ((x - 1) % 2)) && (0 == ((x - 2) % 2)) ){
                             q = !q;
                         }
                         if ( (pow(2,contaVariaveis(formula))/2) <= x ){
@@ -360,7 +359,7 @@ public class TabelaVerdade {
                         if (1 == (x%2)){
                             r = true;
                         }
-                        if ( (1 == ((x - 1) % 2)) && (1 == ((x - 2) % 2)) ){
+                        if ( (1 == ((x - 1) % 2)) && (0 == ((x - 2) % 2)) ){
                             q = !q;
                         }
                         if ( (pow(2,contaVariaveis(formula))) <= x ){
@@ -384,7 +383,7 @@ public class TabelaVerdade {
                         if (1 == (x%2)){
                             r = true;
                         }
-                        if ( (1 == ((x - 1) % 2)) && (1 == ((x - 2) % 2)) ){
+                        if ( (1 == ((x - 1) % 2)) && (0 == ((x - 2) % 2)) ){
                             q = !q;
                         }
                         if ( (pow(2,contaVariaveis(formula))/2) <= x ){
