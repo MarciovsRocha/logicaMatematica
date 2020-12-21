@@ -23,9 +23,9 @@ no formato de tabela verdade
     - [x] Apresentar a **Tabela Verdade** para todas as interpretações possíveis
   - [x] Se a fórmula estiver incorreta avisar que existe erro e não apresentar tabela
 
-$$ \lim_{x=0}^{n}x = nLinha$$
-$$ \mod\frac{x-1}{2} = 1 $$ 
-$$ \mod \frac{x-2}{2} = 0 $$
+$$\lim_{x=0}^{n}x = nLinha$$
+$$\mod\frac{x-1}{2} = 1$$ 
+$$\mod \frac{x-2}{2} = 0$$
 
 0
 1
