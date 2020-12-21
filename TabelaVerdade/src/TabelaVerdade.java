@@ -7,7 +7,7 @@ public class TabelaVerdade {
         this.tamanhoString = formula.length();
         System.out.println("\n======================================================================================");
         if (!verificaFBF(formula)){
-            System.out.println("Formula mal Formada, por favor corriga e tente novamente.");
+            System.out.println("Formula mal Formada, por favor corrija e tente novamente.");
         } // if (!verificaFBF(formula))
     } // public TabelaVerdade(String fomrula)
 
